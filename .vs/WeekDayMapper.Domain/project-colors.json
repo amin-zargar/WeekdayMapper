@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2f3ce787-f5b0-4207-a0dd-63e737bb8d10": {
+      "ProjectGuid": "2f3ce787-f5b0-4207-a0dd-63e737bb8d10",
+      "DisplayName": "WeekDayMapper.Domain",
+      "ColorIndex": 0
+    },
+    "f8768a42-f6bb-4acc-8bc7-221bda246035": {
+      "ProjectGuid": "f8768a42-f6bb-4acc-8bc7-221bda246035",
+      "DisplayName": "WeekDayMapper.Application",
+      "ColorIndex": 1
+    },
+    "b6b73a59-2ad4-4eb8-a041-37044e454a80": {
+      "ProjectGuid": "b6b73a59-2ad4-4eb8-a041-37044e454a80",
+      "DisplayName": "WeekDayMapper.Infrastructure",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

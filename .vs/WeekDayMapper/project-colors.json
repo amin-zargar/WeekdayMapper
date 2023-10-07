@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2f3ce787-f5b0-4207-a0dd-63e737bb8d10": {
+      "ProjectGuid": "2f3ce787-f5b0-4207-a0dd-63e737bb8d10",
+      "DisplayName": "WeekDayMapper.Domain",
+      "ColorIndex": 0
+    },
+    "1cb1f453-cb83-46b3-b2fe-8c0ea3169d93": {
+      "ProjectGuid": "1cb1f453-cb83-46b3-b2fe-8c0ea3169d93",
+      "DisplayName": "WeekDayMapper.API",
+      "ColorIndex": 1
+    },
+    "f8768a42-f6bb-4acc-8bc7-221bda246035": {
+      "ProjectGuid": "f8768a42-f6bb-4acc-8bc7-221bda246035",
+      "DisplayName": "WeekDayMapper.Application",
+      "ColorIndex": 2
+    },
+    "b6b73a59-2ad4-4eb8-a041-37044e454a80": {
+      "ProjectGuid": "b6b73a59-2ad4-4eb8-a041-37044e454a80",
+      "DisplayName": "WeekDayMapper.Infrastructure",
+      "ColorIndex": 3
+    },
+    "1fad5fe5-d749-46b8-a2ba-cf3d0f2b680f": {
+      "ProjectGuid": "1fad5fe5-d749-46b8-a2ba-cf3d0f2b680f",
+      "DisplayName": "WeekDayMapper.WebAPI",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "f3f61ae3-1476-47cf-8116-dd83f04c7287": {
+      "ProjectGuid": "f3f61ae3-1476-47cf-8116-dd83f04c7287",
+      "DisplayName": "WeekDayMapper.Tests",
+      "ColorIndex": 5
+    },
+    "193bb49e-93be-4d28-9d87-f799510a5364": {
+      "ProjectGuid": "193bb49e-93be-4d28-9d87-f799510a5364",
+      "DisplayName": "WeekDayMapper.MSTests",
+      "ColorIndex": 6
+    },
+    "e6120f3f-0870-4926-8aac-daed688bca11": {
+      "ProjectGuid": "e6120f3f-0870-4926-8aac-daed688bca11",
+      "DisplayName": "WeekDayMapper.Tests",
+      "ColorIndex": 7
+    }
+  },
+  "NextColorIndex": 8
+}

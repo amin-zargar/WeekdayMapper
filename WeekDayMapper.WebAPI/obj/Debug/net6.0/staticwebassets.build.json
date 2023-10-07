@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Ux2kJLrRlfkNsIwYfJyC3hkTB+2vxfp7CDvUmUmLxaI=",
+  "Source": "WeekDayMapper.WebAPI",
+  "BasePath": "_content/WeekDayMapper.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
