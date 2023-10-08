@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="OptionsSetup\**" />
+    <Content Remove="OptionsSetup\**" />
+    <EmbeddedResource Remove="OptionsSetup\**" />
+    <None Remove="OptionsSetup\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MediatR" Version="12.1.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>

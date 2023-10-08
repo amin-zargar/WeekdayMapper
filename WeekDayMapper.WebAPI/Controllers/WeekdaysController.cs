@@ -30,7 +30,6 @@ namespace WeekDayMapper.WebAPI.Controllers
         public async Task<IActionResult> GetAll()
         {
             var results = await _mediator.Send(new GetAllClassAQuery());
-            //var result = await _classAService.GetClassAListAsync();
             List<ClassB> listClassB = _mapper.Map<List<ClassB>>(results);
             return Ok(listClassB);
         }

@@ -9,7 +9,7 @@ using WeekDayMapper.Domain.Shared;
 
 namespace WeekDayMapper.Application.UseCases.Members
 {
-    public class LoginCommand : IRequest<string>
+    public class LoginCommand : IRequest<bool>
     {
         public TokenGenerationRequest TokenGenerationRequest { get; set; }
     }

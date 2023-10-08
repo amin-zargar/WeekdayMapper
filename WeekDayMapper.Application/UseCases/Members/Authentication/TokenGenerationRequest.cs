@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace WeekDayMapper.Application.UseCases.Members.Authentication
 {
-    public record TokenGenerationRequest(string Email, CustomClaim[] CustomClaims);
+    public record TokenGenerationRequest(string Email, Dictionary<string,object> CustomClaims);
 }

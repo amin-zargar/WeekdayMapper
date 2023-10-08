@@ -9,7 +9,6 @@ using System.Text;
 using System.Threading.Tasks;
 using MediatR;
 using Microsoft.AspNetCore.Http;
-using WeekDayMapper.Application.Interfaces;
 using WeekDayMapper.Domain.DTOs;
 using WeekDayMapper.Domain.Entities;
 using WeekDayMapper.WebAPI.Controllers;
@@ -46,10 +45,10 @@ namespace WeekDayMapper.Tests
         public async Task GetAll_WhenThereAreWeekdays_ShouldReturnActionResultOfClassBWith200StatusCode()
         {
             // Arrange 
-            var listOfClassA = A.Fake<ICollection<ClassA>>();
+            var listOfClassA = A.Fake<ICollection<Domain.Entities.ClassA>>();
             var listofClassB = A.Fake<List<ClassB>>();
             A.CallTo(() => _mapper.Map<List<ClassB>>(listOfClassA)).Returns(listofClassB);
-            var controller = new WeekdaysController( _mapper, _mediator);
+            var controller = new WeekdaysController(_mapper, _mediator);
 
             // Act
             var result = await controller.GetAll() as OkObjectResult;
